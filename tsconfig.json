@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        // enables to write jsx inside tsx files//use typescript to transpile jsx to js
+      "jsx": "react",
+      // looks for declarations in @types.react and no need to explicitly import * as React 
+      "esModuleInterop": true,
+      // This will let us see the source code in browser, not the devtool in webpack
+      "sourceMap": true
+    }
+      
+}
+
+
+
+
+
+
+
+//   {
+//     "compilerOptions": {
+//         "outDir": "./dist/",
+//         "sourceMap": true,
+//         "noImplicitAny": true,
+//         "module": "commonjs",
+//         "target": "es6",
+//         "jsx": "react"
+//     }
+// }
