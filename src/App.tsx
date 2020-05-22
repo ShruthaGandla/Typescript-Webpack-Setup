@@ -10,7 +10,7 @@ interface MyProps {
    
 }
 
-export default class App extends React.Component<MyProps, {}>{
+export class Hey extends React.Component<MyProps, {}>{
     constructor(props){
         super(props)
     }
